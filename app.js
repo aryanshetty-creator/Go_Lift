@@ -17,6 +17,7 @@ createApp({
             <ul class="workout-list">
                 <li v-for="(workout, index) in workouts" :key="index">
                     {{ workout }}
+                    <button @click="removeWorkout(index)" class="delete-btn">✕</button>
                 </li>
             </ul>
         </div>
@@ -33,6 +34,9 @@ createApp({
                 this.workouts.push(this.newWorkout);
                 this.newWorkout = '';
             }
+        },
+        removeWorkout(index) {
+            this.workouts.splice(index, 1);
         }
     }
 }).mount('#app');
