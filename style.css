@@ -26,3 +26,15 @@ header h1 {
     font-size: 3rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
+
+.workout-container {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.workout-container h2 {
+    color: #667eea;
+    margin-bottom: 20px;
+}
