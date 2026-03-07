@@ -67,3 +67,38 @@ header h1 {
 .workout-form button:hover {
     background: #764ba2;
 }
+
+.workout-list {
+    list-style: none;
+}
+
+.workout-list li {
+    background: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.workout-list li:hover {
+    transform: translateX(5px);
+}
+
+.delete-btn {
+    background: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.delete-btn:hover {
+    background: #ff3838;
+}
