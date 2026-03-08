@@ -25,7 +25,8 @@ createApp({
     data() {
         return {
             newWorkout: '',
-            workouts: []
+            workouts: [],
+            workoutCount: 0
         }
     },
     methods: {
