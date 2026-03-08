@@ -9,6 +9,12 @@ A simple Vue.js fitness tracking application.
 - Simple and intuitive interface
 - Built with Vue 3
 - Responsive design
+- Local storage persistence
+
+## Tech Stack
+- Vue 3 (CDN)
+- Vanilla JavaScript
+- CSS3 with gradients and animations
 
 ## Getting Started
 Simply open `index.html` in your browser!
