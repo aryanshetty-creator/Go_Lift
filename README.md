@@ -18,3 +18,13 @@ A simple Vue.js fitness tracking application.
 
 ## Getting Started
 Simply open `index.html` in your browser!
+
+## Project Structure
+```
+Go_Lift/
+├── components/       # Vue components
+├── utils/           # Utility functions
+├── index.html       # Main HTML file
+├── app.js          # Vue app logic
+└── style.css       # Styles
+```
