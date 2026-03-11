@@ -202,3 +202,53 @@ header h1 {
     color: #667eea;
     font-weight: bold;
 }
+
+
+.settings-panel {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.settings-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.settings-group label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.settings-group input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.settings-group input[type="number"],
+.settings-group select {
+    padding: 8px;
+    border: 2px solid #667eea;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.save-btn {
+    padding: 12px 24px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.save-btn:hover {
+    background: #764ba2;
+}
