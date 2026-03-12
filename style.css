@@ -252,3 +252,59 @@ header h1 {
 .save-btn:hover {
     background: #764ba2;
 }
+
+
+.nutrition-tracker {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.nutrition-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.nutrition-form input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #667eea;
+    border-radius: 5px;
+}
+
+.daily-totals {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.total-item {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.total-value {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #667eea;
+    margin-top: 5px;
+}
+
+.meals-list {
+    list-style: none;
+}
+
+.meals-list li {
+    padding: 10px;
+    background: #f8f9fa;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
