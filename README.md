@@ -15,6 +15,8 @@ A simple Vue.js fitness tracking application.
 - Vue 3 (CDN)
 - Vanilla JavaScript
 - CSS3 with gradients and animations
+- Local Storage for data persistence
+- Modular component architecture
 
 ## Getting Started
 Simply open `index.html` in your browser!
