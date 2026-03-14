@@ -308,3 +308,65 @@ header h1 {
     display: flex;
     justify-content: space-between;
 }
+
+
+.weight-tracker {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.weight-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.weight-input input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #667eea;
+    border-radius: 5px;
+}
+
+.weight-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.stat-box {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.stat-box .label {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.stat-box .value {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #667eea;
+    margin-top: 5px;
+}
+
+.weight-history {
+    list-style: none;
+}
+
+.weight-history li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f8f9fa;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
