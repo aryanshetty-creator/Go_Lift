@@ -30,3 +30,26 @@ Go_Lift/
 ├── app.js          # Vue app logic
 └── style.css       # Styles
 ```
+
+
+## Components
+- Workout Tracker
+- Progress Bar
+- Timer & Rest Timer
+- Calendar View
+- Nutrition Tracker
+- Goal Setter
+- Exercise Library
+- Profile Card
+- Settings Panel
+- Body Weight Tracker
+
+## Utilities
+- Local Storage
+- Date Helpers
+- Validation
+- Analytics
+- Notifications
+- Export/Import
+- Calculators
+- Sound Effects
