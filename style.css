@@ -429,3 +429,52 @@ header h1 {
     font-weight: bold;
     color: #764ba2;
 }
+
+
+.badge-display {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.badges-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.badge-item {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.badge-item.earned {
+    opacity: 1;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.badge-icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.badge-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.badge-description {
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+}
+
+.badge-progress {
+    font-size: 0.9rem;
+    color: #667eea;
+}
