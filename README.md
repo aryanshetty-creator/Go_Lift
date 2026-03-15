@@ -21,6 +21,9 @@ A simple Vue.js fitness tracking application.
 ## Getting Started
 Simply open `index.html` in your browser!
 
+## License
+MIT License - see LICENSE file for details
+
 ## Project Structure
 ```
 Go_Lift/
